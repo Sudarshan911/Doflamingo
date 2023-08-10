@@ -1,0 +1,26 @@
+{
+  "name": "doflamingo",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start:local": "APP_ENV=dev nodemon app.js",
+    "start:production": "pm2 start app.js --env production"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "~4.16.1",
+    "express-mongo-sanitize": "^2.2.0",
+    "mongoose": "^7.4.2",
+    "path": "^0.12.7",
+    "pm2": "^5.3.0",
+    "winston": "^3.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.46.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.28.0",
+    "nodemon": "^3.0.1",
+    "prettier": "^3.0.1"
+  }
+}
